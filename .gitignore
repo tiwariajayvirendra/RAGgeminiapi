@@ -2,3 +2,27 @@
 *\env
 *./env
 *.\env
+# Virtual environment
+Rag_env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Environment variables
+.env
+
+# Data outputs (optional)
+data/chunks.json
+data/faiss.index
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
