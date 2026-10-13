@@ -1,6 +1,10 @@
-sentence-transformers
-faiss-cpu
-numpy
+google-genai
 streamlit
-openai
+faiss-cpu
+sentence-transformers
+PyPDF2
 python-dotenv
+torch
+torchvision
+numpy
+openai
