@@ -1,0 +1,91 @@
+1. Video Display Devices
+
+Video display devices are hardware components used to present visual output from a computer system. Common examples include CRT (Cathode Ray Tube), LCD (Liquid Crystal Display), LED, and OLED monitors. These devices convert digital signals into images using pixels arranged in rows and columns. CRTs use electron beams to illuminate phosphor screens, while modern displays like LCD and LED use liquid crystals and backlighting. Video display devices are essential in computer graphics for rendering images, animations, and videos. They vary in resolution, refresh rate, color depth, and response time, affecting image quality and performance.
+
+2. Uses of Viewing Pipeline in 3-D Viewing
+
+The viewing pipeline in 3-D graphics is used to convert 3-D scene data into a 2-D image on the screen. It includes steps such as modeling transformation, viewing transformation, projection, clipping, and viewport mapping. This pipeline ensures proper representation of 3-D objects from different viewpoints. It helps in perspective rendering, depth handling, and object visibility. The viewing pipeline simplifies complex calculations and provides a structured approach to display realistic images. It is widely used in games, simulations, and CAD systems.
+
+3. Quadric Surfaces
+
+Quadric surfaces are second-degree algebraic surfaces represented by quadratic equations in three variables (x, y, z). Examples include spheres, ellipsoids, cones, cylinders, and paraboloids. The general form is Ax² + By² + Cz² + Dxy + Exz + Fyz + Gx + Hy + Iz + J = 0. These surfaces are widely used in computer graphics and geometric modeling for representing smooth curved shapes. Quadric surfaces are easy to compute and render, making them useful in object modeling and animation.
+
+4. Composite Transforms
+
+Composite transformation is the process of combining multiple transformations such as translation, rotation, and scaling into a single transformation matrix. Instead of applying each transformation separately, they are multiplied into one matrix, improving efficiency. This reduces computational cost and simplifies calculations in graphics systems. Composite transformations are useful in animation and modeling where objects undergo multiple transformations. The order of transformations is important because matrix multiplication is not commutative.
+
+5. View Volume in 3-D Viewing
+
+View volume is the region of space in 3-D graphics that is visible on the display screen. It defines the portion of the scene that will be projected. There are two types: parallel view volume (rectangular box) and perspective view volume (frustum). Objects outside this volume are clipped. View volume helps in reducing unnecessary computations and improves rendering efficiency. It plays an important role in viewing transformations and projection processes.
+
+6. Points and Lines
+
+Points and lines are basic output primitives in computer graphics. A point represents a single location in space defined by coordinates (x, y). A line is a straight path connecting two points. Lines are generated using algorithms like DDA and Bresenham. These primitives form the basis for creating complex shapes and images. Efficient rendering of points and lines is important for graphics performance.
+
+7. Hermite Curve
+
+Hermite curve is a cubic curve defined using two endpoints and their corresponding tangent vectors. It provides smooth curve generation with control over slope at endpoints. The curve is represented using Hermite basis functions. It is widely used in animation, path design, and modeling. Hermite curves offer better control compared to simple interpolation methods.
+
+8. Uses of Graphics Monitors
+
+Graphics monitors are used to display visual outputs such as images, videos, and animations. They are widely used in CAD, gaming, multimedia, medical imaging, and education. Monitors help users interact with graphical interfaces and visualize data effectively. High-resolution monitors provide better clarity and color accuracy, essential for design and analysis tasks.
+
+9. Random Scan System
+
+A random scan system is a display method where the electron beam directly draws lines on the screen instead of scanning line by line. It is also called vector display. It is used for line drawings and wireframe models. It provides high resolution for line images but is not suitable for filled images.
+ 
+10. Coordinate Systems Transformation
+
+Coordinate system transformation is the process of converting coordinates from one system to another. It includes transformations like translation, rotation, and scaling. It is essential for viewing and manipulating objects in graphics. It helps in converting object coordinates to screen coordinates.
+
+11. 2D Viewing Transformation
+
+2D viewing transformation converts world coordinates into device coordinates. It includes window-to-viewport mapping. This transformation helps in displaying a selected portion of the scene on the screen. It ensures proper scaling and positioning of objects.
+
+12. Interactive Computer Graphics
+
+Interactive computer graphics allows users to interact with graphical systems in real-time. Users can modify images, control animations, and provide inputs. It is used in gaming, simulations, CAD, and GUI applications. It improves user experience and efficiency.
+
+13. Viewing Coordinates
+
+Viewing coordinates define the position of objects relative to the viewer. They are obtained after applying viewing transformation. This coordinate system helps in representing objects from the viewer’s perspective. It is essential for projection and rendering.
+
+14. Quadric Surface
+
+A quadric surface is a 3D surface defined by a second-degree equation. Examples include sphere, cone, cylinder, and ellipsoid. These surfaces are widely used in modeling curved objects in graphics.
+
+15. 3D Shearing
+
+3D shearing is a transformation that distorts the shape of an object along one axis while keeping other axes fixed. It changes angles but not volume. It is used for special effects and object transformations.
+
+16. Bresenham vs DDA
+
+Bresenham’s algorithm is preferred over DDA because it uses only integer calculations, making it faster and more efficient. It avoids floating-point operations and rounding errors. It produces more accurate and smooth lines.
+
+17. Overview of Graphic Systems
+
+A graphic system consists of input devices, processing unit, graphics software, and output devices. It converts data into visual form. It includes hardware like GPU and software like rendering engines. It is used in various applications like games and simulations.
+
+18. Output Primitives
+
+Output primitives are basic graphical elements used to create images. Examples include points, lines, polygons, and curves. These primitives are combined to form complex graphics. They are essential for rendering.
+
+19. Reflection Transformation (2D)
+
+Reflection transformation flips an object across a line or axis. It changes the orientation of the object. Common reflections are about x-axis, y-axis, and origin. It is used in image processing and modeling.
+
+20. Emissive Devices
+
+Emissive devices are display devices that emit light to produce images. Examples include CRT and LED displays. They do not require external light sources. They provide bright and clear images.
+
+21. Persistence in CRT
+
+Persistence in CRT refers to the time taken by phosphor to fade after being excited by an electron beam. High persistence reduces flickering but may cause blurring. Low persistence provides sharp images but may flicker.
+
+22. Uniform B-Spline Curve
+
+Uniform B-Spline curves are smooth curves defined using control points and basis functions. They do not pass through all control points but approximate them. They provide local control and smoothness. Used in modeling and animation.
+
+23. Scaling Transformation in 3D
+
+Scaling transformation changes the size of an object in 3D space. It can be uniform (same factor in all directions) or non-uniform. It is represented using scaling matrix. It is used in resizing objects in graphics systems.
